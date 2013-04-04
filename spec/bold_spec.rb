@@ -22,8 +22,6 @@ describe Bold do
       needs :piano
       attr_reader :attributes
 
-      attr_reader :attributes
-
       def initialize(attributes={})
         super
         @attributes = attributes
